@@ -4,3 +4,8 @@
 *.swp
 *.rbc
 *.class
+.idea
+/*/target/
+*/*.ipr
+*/*.iws
+*/*.iml
