@@ -10,7 +10,9 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 "colorscheme solarized
-color codeschool
+colorscheme codeschool
+
+"colorscheme kolor
 
 set guifont=Monaco:h12
 let g:NERDTreeWinPos = "right"
