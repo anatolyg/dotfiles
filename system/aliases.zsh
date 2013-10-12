@@ -25,6 +25,9 @@ alias vt-ec2="ssh -i ~/.ssh/verdande.pem ubuntu@ec2-54-214-147-101.us-west-2.com
 alias vt-dev="ssh -i ~/.ssh/verdande.pem ubuntu@ec2-54-214-147-101.us-west-2.compute.amazonaws.com './getLatest.sh'"
 
 # CP
+alias cp-ec2="ssh -i ~/.ssh/copatient_prod_private.pem ubuntu@www.copatient.com"
+alias cp-dev="ssh -i ~/.ssh/copatient_dev_private.pem ubuntu@dev.copatient.com"
+
 
 # tools
 alias ebayify="mogrify -resize 1600x1600"
