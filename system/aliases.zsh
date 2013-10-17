@@ -29,7 +29,7 @@ alias cp-dev-ec2="ssh -i ~/.ssh/copatient_dev_private.pem ubuntu@dev.copatient.c
 alias cp-dev-deploy="ssh -i ~/.ssh/copatient_dev_private.pem ubuntu@dev.copatient.com ./getLatest.sh"
 
 alias cp-prod-ec2="ssh -i ~/.ssh/copatient_prod_private.pem ubuntu@www.copatient.com"
-alias cp-prod-deploy="ssh -i ~/.ssh/copatient_prod_private.pem ubuntu@www.copatient.com ./getLatest.sh"
+alias cp-prod-deploy="ssh -i ~/.ssh/copatient_prod_private.pem ubuntu@www.copatient.com ./.getLatest.sh"
 
 
 # tools
