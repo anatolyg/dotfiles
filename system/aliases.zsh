@@ -23,6 +23,9 @@ alias dg-uat="ssh ubuntu@uat.dicomgrid.com './getLatest.sh'"
 # VT
 alias vt-ec2="ssh -i ~/.ssh/verdande.pem ubuntu@ec2-54-214-147-101.us-west-2.compute.amazonaws.com"
 alias vt-dev="ssh -i ~/.ssh/verdande.pem ubuntu@ec2-54-214-147-101.us-west-2.compute.amazonaws.com './getLatest.sh'"
+alias vt-c="ssh ubuntu@pv-cl-vt4001001c.vtheart.com"
+alias vt-b="ssh ubuntu@pv-cl-vt4001001c.vtheart.com"
+
 
 # CP
 alias cp-dev-ec2="ssh -i ~/.ssh/copatient_dev_private.pem ubuntu@dev.copatient.com"

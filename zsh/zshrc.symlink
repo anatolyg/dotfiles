@@ -1,5 +1,7 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
+export ZSH_TMUX_AUTOSTART=true
+export ZSH_TMUX_ITERM2=true
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Dev
@@ -12,7 +14,7 @@ then
 fi
 
 # load oh-my-zsh plugins
-plugins=(git osx brew node npm vagrant lein git-flow)
+plugins=(git osx brew node npm vagrant git-flow tmux)
 
 # all of our zsh files
 typeset -U config_files
