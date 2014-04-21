@@ -4,5 +4,5 @@ if [[ "$EDITOR" == "" ]] ; then
   export EDITOR='mvim'
 fi
 export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
-echo 'eval "$(rbenv init -)"' >> ~/.zlogin
+#echo 'eval "$(rbenv init -)"' >> ~/.zlogin
 source ~/.zlogin
