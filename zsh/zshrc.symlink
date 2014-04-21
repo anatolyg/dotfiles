@@ -14,7 +14,7 @@ then
 fi
 
 # load oh-my-zsh plugins
-#plugins=(git osx node npm vagrant brew)
+plugins=(git osx node npm vagrant brew)
 
 # all of our zsh files
 typeset -U config_files
@@ -33,8 +33,8 @@ do
 done
 
 # initialize autocomplete here, otherwise functions won't be loaded
-#autoload -U compinit
-#compinit -d /tmp/dumpfile
+autoload -U compinit
+compinit -d /tmp/dumpfile
 
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
